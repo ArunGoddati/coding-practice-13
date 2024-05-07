@@ -1,0 +1,58 @@
+.big-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: Bree Serif;
+  font-size: 25px;
+  color: #1e293b;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #7b8794;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.search-element {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  padding: 5px;
+  padding-left: 15px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.search-image {
+  height: 40px;
+  width: 40px;
+}
+.tabsList-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+.appsList-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: cente;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  max-width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .appsList-container {
+    max-width: 360px;
+  }
+}
